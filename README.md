@@ -1,6 +1,6 @@
 # Springboot- Rabbitmq
 
-RabbitMQ Docker image [link] (https://hub.docker.com/_/rabbitmq)
+RabbitMQ Docker image [link](https://hub.docker.com/_/rabbitmq)
 ```
 # run a standalone instance using management
 docker network create rabbits
@@ -23,8 +23,8 @@ docker run -it --rm --net rabbits -p 8081:8081 rabbitmq-pub-sub:latest
 ```
 
 # Message publishing endpoints
-1. Ping [URL] (localhost:8081/rabbitDemo/)
-2. Order [URL] (localhost:8081/rabbitDemo/order/unknown)
+1. Ping [URL](localhost:8081/rabbitDemo/)
+2. Order [URL](localhost:8081/rabbitDemo/order/unknown)
   ```
   Input JSON
   {
@@ -33,7 +33,7 @@ docker run -it --rm --net rabbits -p 8081:8081 rabbitmq-pub-sub:latest
     "orderETA":"30days"
   }
   ```
-3. Ticker [URL] 9localhost:8081/rabbitDemo/ticket)
+3. Ticket [URL](9localhost:8081/rabbitDemo/ticket)
   ```
   Input JSON
   {
